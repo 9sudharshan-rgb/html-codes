@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Traffic Light with Pole and Brick Base</title>
+  <style>
+    body {
+      background-color: #3b3b3b;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .traffic-light {
+      width: 100px;
+      height: 300px;
+      background-color: #333;
+      border-radius: 50px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .light {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background-color: #111;
+    
+      
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    .yellow {
+      background-color: yellow;
+    }
+
+    .green {
+      background-color: green;
+    }
+
+    .pole {
+      width: 20px;
+      height: 200px;
+      background-color: #555;
+      margin-top: -2px;
+    
+    }
+
+    .base {
+      width: 120px;
+      height: 40px;
+      background:#333;
+      border-top: 5px solid #333;
+      border-radius: 5px 5px 0 0;
+      margin-top: 1px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="traffic-light">
+      <div class="light red"></div>
+      <div class="light yellow"></div>
+      <div class="light green"></div>
+    </div>
+    <div class="pole"></div>
+    <div class="base"></div>
+  </div>
+</body>
+</html>
